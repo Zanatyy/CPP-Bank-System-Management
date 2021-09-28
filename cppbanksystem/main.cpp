@@ -1,13 +1,11 @@
 #include <iostream>
 #include <fstream>
 #include "account.h"
-#include <string.h>
 #include <conio.h>
-#include <stdio.h>
 #include <map>
 #include <windows.h>
 #define ESC 27
-
+//reposisitioning the menu and for more colors======================
 #define nc 150
 #define hc 200
 void gotoxy(int x,int y)
@@ -21,9 +19,11 @@ void textattr(int i)
 {
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), i);
 }
+//===================================================================
+//The rest of the functions were declared below the main. Only prototypes were written here.
 using namespace std;
-map<int , account>accounts;
-map<int,account>::iterator itr;
+map<int , account>accounts; //to store accounts.
+map<int,account>::iterator itr; //iterator.
 void create_account();
 void addrecords();
 void printaccounts();
