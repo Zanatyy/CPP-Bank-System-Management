@@ -1,6 +1,6 @@
 # CPP-Bank-System-Management
 ## About The Project
-Simple system that restores accounts details, which are:
+Simple system that stores accounts details, which are:
 -ID
 -Name (First and Last).
 -Balance.
