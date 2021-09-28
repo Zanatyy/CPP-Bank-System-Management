@@ -7,17 +7,29 @@ Simple system that restores accounts details, which are:
 Unfortunately it's only the admin mode so it's not a fully implementable system. It's only for practicing and educational purposes. Feel free to criticize my primitive code :D
 ## Libraries
 Libraries used:
+
 •	iostream
+
 •	fstream
+
 File streaming, used in importing/exporting files. “file.open()” “file.is_open()”,”file.close()”.
+
 •	string.h
+
 String manipulation. Used for storing full name during creating the account and also the constructor. “strcpy()”,”strcat()”
+
 •	conio.h
+
 To use getch(),
+
 •	map
+
 For using Standard Template Library (STL) map.
+
 •	windows.h
+
 Used in colors and repositioning menu functions.
+
 ## Files
 Files included in this project are CMake/Make files and main project files like main.cpp ,account.cpp ,account.h.
 account.h is the header file which includes the class, member variables and functions declarations.
@@ -26,9 +38,15 @@ main.cpp includes the main program and non-member functions.
 ## Functions
 I'll split this section into two main parts
 ### Class Member Functions
+
 setter(); get data from user to store it as an account in the system.
+
 show_account(); show account details on screen.
+
 modify(); to make changes into account details.
+
 dep(int); deposit money into account balance.
+
 draw(int); withdraw money from account ablance.
+
 retacno(); to get account number/ID.
