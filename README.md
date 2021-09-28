@@ -61,7 +61,7 @@ textattr(int) for a colorful terminal screen.
 
 create_account(); to create andd add the account in the map.
 
-findandshowaccount(int); to find account based on ID number and display it.
+findandshowaccount(int); to find account in map based on ID number and display it.
 
 printaccounts(); display all accounts.
 
