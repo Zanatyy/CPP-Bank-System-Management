@@ -1,10 +1,14 @@
 # CPP Bank System Management Project
 ## About The Project
 Simple system that stores accounts details, which are:
+
 -ID
+
 -Name (First and Last).
+
 -Balance.
-Unfortunately it's only the admin mode so it's not a fully implementable system. It's only for practicing and educational purposes. Feel free to criticize my primitive code :D
+
+It's only the admin mode so it's not a fully implementable system. It's only for practicing and educational purposes. Feel free to criticize my code.
 ## Libraries
 Libraries used:
 
