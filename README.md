@@ -50,3 +50,20 @@ dep(int); deposit money into account balance.
 draw(int); withdraw money from account ablance.
 
 retacno(); to get account number/ID.
+### Non-member Functions
+getoxy(int,int); for menu placement.
+
+textattr(int) for a colorful terminal screen.
+
+create_account(); to create andd add the account in the map.
+
+findandshowaccount(int); to find account based on ID number and display it.
+
+printaccounts(); display all accounts.
+
+addrecords(); import accounts into the map.
+
+clearrecords(); clears the file.
+
+programbegin(); the program loop+ the mainmenu.
+
