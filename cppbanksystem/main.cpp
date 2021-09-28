@@ -4,8 +4,9 @@
 #include <conio.h>
 #include <map>
 #include <windows.h>
+#include <stdio.h>
 #define ESC 27
-//reposisitioning the menu and for more colors======================
+//Regarding highlight menu
 #define nc 150
 #define hc 200
 void gotoxy(int x,int y)
@@ -19,15 +20,11 @@ void textattr(int i)
 {
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), i);
 }
-//===================================================================
-//The rest of the functions were declared below the main. Only prototypes were written here.
+//===========================
 using namespace std;
-map<int , account>accounts; //to store accounts.
-map<int,account>::iterator itr; //iterator.
-void create_account();
-void addrecords();
-void printaccounts();
-void clearrecords();
+map<int , account>accounts;
+map<int,account>::iterator itr;
+
 void programbegin();
 char menuitems[10][21]={"Add Account","Display Account","Display All Accounts","Deposit","Withdraw","Modify Account","Delete Account","Import Records","Delete Records","Exit"};
 int main() {
@@ -90,7 +87,8 @@ void clearrecords(){
     getch();
 }
 void programbegin(){
-    int Currentitem=0,quit=0,c=0,col=40,row=5,size=10,n;
+    int Currentitem=0,quit=0,col=40,row=5,size=10,n;
+    char c;
     account* currentaccount;
     printf("Mainmenu");
     textattr(nc);
