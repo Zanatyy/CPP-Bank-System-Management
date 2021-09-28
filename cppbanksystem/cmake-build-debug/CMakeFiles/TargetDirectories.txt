@@ -1,0 +1,3 @@
+C:/Users/Zanaty/CLionProjects/cppbanksystem/cmake-build-debug/CMakeFiles/bankk.dir
+C:/Users/Zanaty/CLionProjects/cppbanksystem/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Zanaty/CLionProjects/cppbanksystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
