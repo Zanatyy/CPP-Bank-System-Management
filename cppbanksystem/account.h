@@ -19,11 +19,7 @@ public:
     void modify();	//function to add new data
     void dep(int);	//function to accept amount and add to balance amount
     void draw(int);	//function to accept amount and subtract from balance amount
-    void report();	//function to show data in tabular format
     int retacno();	//function to return account number
-    double retdeposit();	//function to return balance amount
-    accountype rettype();	//function to return type of account
-    void setat(accountype);
     accountype at=NOT_DEFINED;
 };
 #endif //BANKK_ACCOUNT_H

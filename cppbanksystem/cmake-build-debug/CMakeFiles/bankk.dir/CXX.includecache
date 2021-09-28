@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Zanaty/CLionProjects/cppbanksystem/account.h
+
+C:/Users/Zanaty/CLionProjects/cppbanksystem/main.cpp
+iostream
+-
+fstream
+-
+account.h
+C:/Users/Zanaty/CLionProjects/cppbanksystem/account.h
+conio.h
+-
+map
+-
+windows.h
+-
+stdio.h
+-
+

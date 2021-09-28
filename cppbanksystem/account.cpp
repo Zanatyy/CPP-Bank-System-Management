@@ -3,8 +3,6 @@
 //
 #include "account.h"
 #include <iostream>
-#include <stdio.h>
-#include <iomanip>
 #include <string.h>
 using namespace std;
 void account::setter(){
@@ -43,15 +41,7 @@ void account::draw(int i){
 int account::retacno(){
     return accnum;
 }
-double account::retdeposit(){
-    return total_balance;
-}
-void account::setat(accountype i){
-    at=i;
-}
-accountype account::rettype(){
-    return at;
-}
+
 account::account(int i,char f[10],char l[10],float b){
     accnum=i;
     strcpy(firstname,f);strcpy(lastname,l);
