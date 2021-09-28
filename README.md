@@ -1,4 +1,4 @@
-# CPP-Bank-System-Management
+# CPP Bank System Management Project
 ## About The Project
 Simple system that stores accounts details, which are:
 -ID
