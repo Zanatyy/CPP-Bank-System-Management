@@ -4,7 +4,6 @@
 #include <conio.h>
 #include <map>
 #include <windows.h>
-#include <stdio.h>
 #define ESC 27
 //Regarding highlight menu
 #define nc 150
