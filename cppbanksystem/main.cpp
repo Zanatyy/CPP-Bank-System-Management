@@ -29,6 +29,7 @@ void programbegin();
 char menuitems[10][21]={"Add Account","Display Account","Display All Accounts","Deposit","Withdraw","Modify Account","Delete Account","Import Records","Delete Records","Exit"};
 int main() {
     programbegin();
+    return 0;
 }
 void create_account(){
     account a1;
