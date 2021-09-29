@@ -59,7 +59,7 @@ getoxy(int,int); for menu placement.
 
 textattr(int) for a colorful terminal screen.
 
-create_account(); to create andd add the account in the map.
+create_account(); to create and add the account in the map.
 
 findandshowaccount(int); to find account in map based on ID number and display it.
 
